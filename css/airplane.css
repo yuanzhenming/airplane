@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+#mapCanvas{
+    display: block;
+}
+#loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*translate 平移 百分比相对于自身宽高而言*/
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#currentScore{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#menu{
+    width: 180px;
+    height: 170px;
+    border: 1px solid #808080;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    list-style: none;
+    text-align: center;
+    background-color: gray;
+    font-size: 25px;
+    line-height: 55px;
+    /*开始时,结束菜单不显示*/
+    display: none;
+}
+#endScore{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

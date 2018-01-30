@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>微信打飞机</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="../css/airplane.css">
+</head>
+<body>
+<!--绘制飞机的地图-->
+<canvas id="mapCanvas" width="" height=""></canvas>
+<!--游戏加载中-->
+<div id="loading">
+    <img src="../img/loading.gif" alt="" />
+    <p>游戏加载中</p>
+</div>
+<!--游戏所得分数-->
+<p id="currentScore">分数:<span>0</span></p>
+<!--结束菜单-->
+<ul id="menu">
+    <li>飞机大战分数</li>
+    <li id="endScore">0</li>
+    <li id="restart">重新开始</li>
+</ul>
+</body>
+<script src="../js/airplane.js"></script>
+</html>
